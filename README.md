@@ -7,8 +7,11 @@
 
 Self Service Password is a PHP application that allows users to change their password in an LDAP directory.
 
-The application can be used on standard LDAPv3 directories (OpenLDAP, OpenDS, ApacheDS, Sun Oracle DSEE, Novell, etc.) and also on Active Directory.
+The application s based on great work by https://github.com/ltb-project/self-service-password.
+It can be used on standard LDAPv3 directories (OpenLDAP, OpenDS, ApacheDS, Sun Oracle DSEE, Novell, etc.) and also on Active Directory.
 
+** The Reason to create this repo is to add some auditing features and not use the latest branch of self-service-password , as I plan to use this code in a very legacy environment and most of the latest features does not work on it **
+ 
 ![Screenshot](http://ltb-project.org/wiki/_media/documentation/self-service-password/1.0/ssp_1_0_change_password.png?w=800&h=666&tok=abc22c)
 
 It has the following features:
